@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background-color: #EDF2F4;
+    color: #464646;
+    font-family: 'Nunito', sans-serif;
+}
+
+.dark-mode {
+    background-color: #2B2D42;
+    color: rgb(219, 219, 219);
+}
+
+#conteudo, #cabecalho {
+    margin: 0 auto;
+    width: 80%;
+}
+
+form button {
+    background-color: #8D99AE;
+    border: none;
+    padding: 8px 10px;
+    text-transform: uppercase;
+}
+
+form input {
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    padding: 8px 10px;
+}
+
+section button {
+    background-color: #D90429;
+    border: none;
+    padding: 2px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #eee;
+    margin-left: 15px;
+    border-radius: 2px;
+    float: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    background-color: rgba(17, 17, 17, 0.06);
+    padding: 10px 15px;
+    margin: 2px;
+    border-radius: 10px;;
+}
+
+#cabecalho button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.5);
+    padding: 8px 10px;
+    border-radius: 5px;
+}
